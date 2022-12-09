@@ -1,7 +1,7 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
-import getErrorMessage from "../hooks/error";
-import { IUser } from "../models/IUser";
+import getErrorMessage from "../../hooks/error";
+import { IUser } from "../../models/IUser";
 import { AppDispatch } from "../store";
 import { userSlice } from "./UserSlice";
 

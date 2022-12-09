@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { useAppDispatch, useAppSelector } from "./store/hooks/redux";
+import { useAppDispatch, useAppSelector } from "./hooks/redux";
 import { fetchUsers } from "./store/reducers/ActionCreators";
 
 function App() {
