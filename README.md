@@ -1,1 +1,1 @@
-"# advanced-redux-app" 
+# advanced-redux-app
